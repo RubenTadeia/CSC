@@ -1,2 +1,2 @@
-# OA
-Project requested by the course of Optimization and Algorithms
+# CSC
+Project requested by the course of Cryptography and Communications Security
