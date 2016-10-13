@@ -10,7 +10,7 @@ Deadlines:
 
 #########################################################################
 
-	-> 11 de Novembro : CSC 2
+	-> 10 de Novembro : CSC 2
 			To do:
 				-> GPS
 				-> Lê coordenadas
