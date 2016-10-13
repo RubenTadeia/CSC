@@ -1,0 +1,35 @@
+Deadlines:
+
+	-> 27 de Outubro : CSC 1
+			To do:
+				-> Menu
+				-> Barra Lateral
+				-> Long Press (Clicar continuamente e aparecer uma coisa)
+				-> Logotipo (adobe ilustrator para bons, paint para nós)
+
+
+#########################################################################
+
+	-> 11 de Novembro : CSC 2
+			To do:
+				-> GPS
+				-> Lê coordenadas
+				-> Envia coordenadas
+
+#########################################################################
+
+	-> 24 de Novembro : CSC 3
+			To do:
+				-> Encripta a posição
+				-> API da google
+
+#########################################################################
+
+	-> 09 de Dezembro : CSC 4
+			To do:
+				-> Extras
+
+
+#########################################################################
+
+	-> Entrega do Projecto : Dia 16 de Dezembro 23:59 
