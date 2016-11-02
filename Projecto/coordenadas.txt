@@ -1,0 +1,20 @@
+As coordenadas abaixo, estão no formato:
+
+
+Latitude , Longitude e Altura
+
+Fórmula de Encriptação: 
+
+X -> É a Latitude
+Y -> Longitude
+
+
+Versão Orginal : 39.026953,-8.7953292,16.25
+
+
+Encriptada segundo o método:
+
+
+X = (X * ) + 
+
+Y = (Y * ) -
