@@ -1,0 +1,66 @@
+Symmetric vs. Asymmetric Cryptographic Algorithms
+
+
+
+The main technical difference between symmetric and asymmetric cryptographic algorithms is - in the asymmetric algorithm, the key used to encrypt a message is not the same as the key used to decrypt it. Each user has a pair of cryptographic keys -- a public encryption key and a private decryption key. This is made possible mathematically by large integer factorization. One extremely widely used algorithm, called RSA, is demonstrated later.
+
+In contrast, symmetric algorithms use a single key for both encryption and decryption. One popular algorithm is called AES, which will be covered later in this tutorial. These algorithms are usually more efficient but might not be as secure as their asymmetric counterparts. There are some hybrid approaches to capitalize on the advantages of both types of algorithms.
+
+
+
+
+
+Symmetric Encryption Example - AES
+
+Here is one very popular and highly efficient symmetric algorithm called -- Advanced Encryption Standard (AES). Based on the Rijndael cipher developed by two Belgian cryptographers, AES has been adopted by the U.S. government and is now used worldwide.
+
+
+
+
+
+Asymmetric Encryption Example - RSA
+
+RSA stands for Ron Rivest, Adi Shamir and Leonard Adleman. They developed the algorithm by using the large integer factorization technique in 1977. It has since become so popular that we almost depend on similar technologies used in everyday life, such as banking, messaging, etc. As we briefly mentioned before, this type of algorithm uses a pair of keys used for encryption and decryption respectively.
+
+
+
+
+		→ From stack overflow
+
+			In RSA you should use the public key for encryption and the private key for decryption.
+
+			Your sample code uses for encryption and decryption the public key - this can not work.
+
+			Hence in the decryption part you should initialize the cipher this way:
+
+			cipher1.init(Cipher.DECRYPT_MODE, privateKey);
+
+			Furthermor your code has a second significant bug:
+
+			You are converting a byte array with binary content to a String.
+
+			Never ever convert binary data to a String!
+
+			Strings are for string characters, not binary data. If you want to pack binary data into a String encode it to printable characters for example using Hex or Base64.
+
+			The following example uses the hexadecimal encoder fro org.apache.common.codec package - a third party library with has to be installed.
+
+
+
+
+Symmetric vs. Asymmetric Ciphers
+
+
+
+Symmetric ciphers are the oldest and most used cryptographic ciphers. In a symmetric cipher, the key that deciphers the ciphertext is the same as (or can be easily derived from) the key enciphers the clear text. This key is often referred to as the secret key. The most widely used symmetric ciphers are DES and AES.
+
+Unlike a symmetric cipher, an asymmetric cipher uses two keys: one key that is kept secret and known to only one person (the private key) and another key that is public and available to everyone (the public key). The two keys are mathematically interrelated, but it's impossible to derive one key from the other. Well-known asymmetric ciphers are the Diffie-Hellman algorithm, RSA, and DSA.
+
+What are the advantages and disadvantages of using an asymmetric cipher instead of a symmetric cipher?
+
+    An important advantage of asymmetric ciphers over symmetric ciphers is that no secret channel is necessary for the exchange of the public key. The receiver needs only to be assured of the authenticity of the public key. Symmetric ciphers require a secret channel to send the secret key—generated at one side of the communication channel—to the other side.
+    Asymmetric ciphers also create lesser key-management problems than symmetric ciphers. Only 2n keys are needed for n entities to communicate securely with one another. In a system based on symmetric ciphers, you would need n(n ? 1)/2 secret keys. In a 5000-employee organization, for example, the companywide deployment of a symmetric crypto-based security solution would require more than 12 million keys. The deployment of an asymmetric solution would require only 10,000 keys.
+    A disadvantage of asymmetric ciphers over symmetric ciphers is that they tend to be about "1000 times slower." By that, I mean that it can take about 1000 times more CPU time to process an asymmetric encryption or decryption than a symmetric encryption or decryption.
+    Another disadvantage is that symmetric ciphers can be cracked through a "brute-force" attack, in which all possible keys are attempted until the right key is found.
+
+Because of these characteristics, asymmetric ciphers are typically used for data authentication (through digital signatures), for the distribution of a symmetric bulk encryption key (aka a digital envelope), for non-repudiation services, and for key agreement. Symmetric ciphers are used for bulk encryption. 

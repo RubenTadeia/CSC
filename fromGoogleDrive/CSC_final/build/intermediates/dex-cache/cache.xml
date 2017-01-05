@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_2edfe84f9764f49def6b21468cc42496420dc8b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_f0e61230edb2f73ac63c22f3c73aad9b8815d672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_3ff94c4784eaec4b102068d67af65988a38fbd6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_ad9bbe19ed3524db5fb8770a1555a2e2cf8a21c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="911ad21cf2b49ec08edca89e139ee6a8ef0995c0">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-unspecified_7a48c6ac3d6801cfee05a056b45b2c48d8b8755b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_4d23865ce8bdb0020bcf3c45e0124f0b0bd68021.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_9a976a0709df6cecdfd53273c98453ada933f4c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_813d7bdb75c675bd89e1957e9a22c0e54df5a7b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_0ef6c640d8c144571019c0ebc47ee5f9378a0746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_f73d52f89b9f051857a912dacbaf570c82c51c9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_42cc8ef3bf30565e9fc411dad60fd7e6d6a32521.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b4a11188d4e59e874731431b1c9b7c54def8763e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_f9a699ce4d2ec3a61fae366c36a3b3e8089b7234.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1df1277a34b9a26f04c4a3adf01073d225d1f9f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_1d7b30989da593e149aed065f1cf94c9a440bef0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_1c243db25414719e4bbc669f1a3de22ace885587.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_169568e9cb9b9f9d5b3e49a4e625292c014994f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\bruno\Desktop\Trabalho CSC\CSC\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_ff8877c79a3d283f7bc4f74ff9c621ff0ee0805b.jar" />
+    </item>
+
+</items>

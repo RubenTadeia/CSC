@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="brunoc.csc.ist.pt.csc.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="Rastrear"
+        android:layout_height="wrap_content"
+        android:id="@+id/rastrear"
+        android:layout_marginTop="37dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="rastrear_onClick"/>
+
+    <Button
+        android:text="Alerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/alerta"
+        android:textSize="30sp"
+        android:layout_below="@+id/rastrear"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="alerta_onClick"/>
+
+    <Button
+        android:text="Mensagens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mensagens"
+        android:textSize="30sp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/alerta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/settings"
+        android:textSize="30sp"
+        android:layout_below="@+id/mensagens"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sair"
+        android:textSize="30sp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/settings"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sair_onClick"/>
+</RelativeLayout>
